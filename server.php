@@ -1,6 +1,7 @@
 <?php
     $paragraph = $_GET['paragraph'];
     $badWord = $_GET['badWord'];
+
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +12,7 @@
     <title>server</title>
 </head>
 <body>
-    
+    <h1><?php echo $paragraph; ?> <?php echo strlen($paragraph); ?></h1>
+    <p><?php echo str_replace($badWord,'***',$paragraph);?> </p>
 </body>
 </html>
