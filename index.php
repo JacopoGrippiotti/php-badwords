@@ -8,7 +8,7 @@
 <body>
     <form action="./server.php" method="GET">
             <input type="text" name="paragraph">
-            <input type="text" name="badword">
+            <input type="text" name="badWord">
             <button type="submit">
                 Invia il form
             </button>
